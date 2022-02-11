@@ -1,0 +1,53 @@
+
+h1{
+  text-align: center;
+  font-family: cursive;
+  font-size: 30px;
+  color: red;
+}
+.container{
+  text-align: center;
+}
+.one{
+  margin-bottom: 10px;
+  font-size: 25px;
+  border-radius: 20px;
+  text-align: center;
+  color: blue;
+  font-family: sans-serif;
+}
+.two{
+  margin-bottom: 10px;
+  font-size: 25px;
+  border-radius: 20px;
+  text-align: center;
+  color: red;
+  font-family: sans-serif;
+}
+.three{
+  margin-bottom: 10px;
+  font-size: 25px;
+  border-radius: 20px;
+  text-align: center;
+  color: greenyellow;
+  font-family: sans-serif;
+}
+.four{
+  margin-bottom: 10px;
+  font-size: 25px;
+  border-radius: 20px;
+  text-align: center;
+  color: darkgoldenrod;
+  font-family: sans-serif;
+}
+.submit{
+  margin-bottom: 10px;
+  font-size: 23px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  font-family: Sans-Serif;
+  background-color: orangered
+}
+
+
