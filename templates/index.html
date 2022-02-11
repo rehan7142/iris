@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>IRIS MACHINE LEARNING PROJECT</title>
+  
+  <!-- HTML -->
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="./static/css/style.css">
+</head>
+
+<body>
+    <h1>IRIS MACHINE LEARNING PROJECT</h1>
+    <div class="container">
+      <form method="POST"action="{{url_for('predict')}}">
+        <input class="one" placeholder="SEPAL_LENGTH_CM" type="text" name="a" required><br>
+        <input class="two" name = "b" placeholder="SEPAL_WIDTH_CM" type="text" required><br>
+        <input class="three" placeholder="PETAL_LENGTH_CM" type="text" name = "c" required><br>
+        <input class="four" placeholder="PETAL_WIDTH_CM" type="text" name = "d" required><br>
+        <button class="submit" type="submit">PREDICT</button>
+      </form>
+    </div>
+  <script src="main.js"></script>
+</body>
+</html>

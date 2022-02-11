@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  {%if data == 0%}
+  <h1> IRIS-SETOSA</h1>
+  <img src="static/img/Setosa.jpg" alt="" width="200" height="200"></img>
+  {%elif data == 1%}
+  <h1>IRIS-VERSICOLOR</h1>
+  <img src="static/img/versicolor.jpeg" width='200' height='200'/>
+  {%else%}
+  <h1>IRIS-VERGINCA</h1>
+  <img src="static/img/Verginica.jpg" alt="" width="200" height="200"/>
+  {%endif%}
+  <br><br>
+      <a href='/'>go back to home page</a>
+  <script src="main.js"></script>
+</body>
+</html>
