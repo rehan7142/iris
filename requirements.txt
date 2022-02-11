@@ -6,3 +6,6 @@ Werkzeug
 Jinja2
 itsdangerous
 MarkupSafe
+gevent
+passlib
+SQLAlchemy
